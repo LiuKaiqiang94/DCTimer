@@ -66,7 +66,7 @@ public class ListAdapter extends BaseAdapter {
 			}
 			times.add(mean);
 		} else {
-			//System.out.println("¿ªÊ¼¼ÆËã");
+			//System.out.println("???????");
 			for (int i = 0; i < size; i++) {
 				String[] data = {String.valueOf(i+1), Statistics.timeAt(i, false),
 						Configs.stSel[14] == 0 ? Statistics.average(Configs.l1len, i, 0) : Statistics.mean(Configs.l1len, i, 0),
